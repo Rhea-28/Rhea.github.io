@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Rhea Cervantes | Portfolio</title>
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Custom navbar color and alignment */
+        .navbar-custom {
+            background-color: #343a40; /* Dark background */
+        }
+
+        .navbar-custom .navbar-nav .nav-link {
+            color: #f8f9fa; /* Light color for text */
+        }
+
+        .navbar-custom .navbar-nav .nav-link:hover {
+            color: #007bff; /* Color on hover */
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Header with Navigation -->
+    <header class="bg-dark text-white fixed-top shadow-lg">
+        <nav class="navbar navbar-expand-lg navbar-custom">
+            <div class="container">
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item"><a class="nav-link" href="#about">About Me</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="about" class="d-flex flex-column justify-content-center align-items-center text-center bg-primary text-white min-vh-100 py-5">
+        <div class="container">
+            <h1 class="display-3 fw-bold mb-3">Hello, I'm Rhea Cervantes</h1>
+            <p class="lead mb-4">A dedicated developer with extensive experience in crafting innovative and high-performance Web applications, bringing a deep passion for delivering exceptional user experiences and solving complex technical challenges.</p>
+            <a href="#contact" class="btn btn-light btn-lg">Get in Touch</a>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="bg-light py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">Skills</h2>
+            <div class="row text-center">
+                <div class="col-md-4 mb-4">
+                    <div class="skill-card shadow-sm p-4 rounded bg-white">
+                        <h3 class="text-primary">Java</h3>
+                        <p>Expert in developing robust back-end systems and applications.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="skill-card shadow-sm p-4 rounded bg-white">
+                        <h3 class="text-primary">JavaScript</h3>
+                        <p>Experienced in creating interactive web interfaces with modern frameworks.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="skill-card shadow-sm p-4 rounded bg-white">
+                        <h3 class="text-primary">Python</h3>
+                        <p>Skilled in scripting, data analysis, and web development using Python.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="bg-light py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">Projects</h2>
+            <div class="row g-4">
+                <div class="col-md-6 mb-4">
+                    <div class="card project-card shadow-sm border-0 rounded">
+                        <img src="color-game-screenshot.jpg" class="card-img-top" alt="Color Game">
+                        <div class="card-body">
+                            <h3 class="card-title">Blinding Lights</h3>
+                            <p class="card-text">A web platform that was developed to aid and access the users eyesight!</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 mb-4">
+                    <div class="card project-card shadow-sm border-0 rounded">
+                        <img src="crush-fruit-screenshot.jpg" class="card-img-top" alt="Crush Fruit">
+                        <div class="card-body">
+                            <h3 class="card-title">Parking APP</h3>
+                            <p class="card-text">An Application created to make the Parking way easy and convenient</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="bg-primary text-white py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Get in Touch</h2>
+            <div class="row justify-content-center">
+                <div class="col-lg-6">
+                    <div class="contact-card p-4 rounded bg-light text-dark shadow-lg">
+                        <h3 class="text-center mb-4">Contact Me</h3>
+                        <p class="text-center mb-4">I’d love to hear from you! Whether you have a question, a project in mind, or just want to connect, feel free to reach out.</p>
+                        <div class="text-center mb-4">
+                            <a href="mailto:rhea@example.com" class="btn btn-primary btn-lg">Email Me</a>
+                        </div>
+                        <div class="social-links text-center">
+                            <a href="https://linkedin.com/in/rheacervantes" target="_blank" class="btn btn-outline-primary me-2">
+                                <i class="fab fa-linkedin"></i> LinkedIn
+                            </a>
+                            <a href="https://github.com/Rhea-28/Rhea.github.io" target="_blank" class="btn btn-outline-dark">
+                                <i class="fab fa-github"></i> GitHub
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3">
+        <p class="mb-0">&copy; 2024 Rhea Cervantes All Rights Reserved.</p>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script src="scripts.js"></script>
+</body>
+
+</html>
